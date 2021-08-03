@@ -44,7 +44,7 @@ app.post('/bfhl', (req, res) => {
 
         res.send({
             "is_success": true,
-            "user_id": "uddhav_sharma_161112000",
+            "user_id": "ritik_porwal_30052000",
             "odd": odd,
             "even": even
         });
@@ -52,7 +52,7 @@ app.post('/bfhl', (req, res) => {
     else {
         res.send({
             "is_success": false,
-            "user_id": "uddhav_sharma_161112000"
+            "user_id": "ritik_porwal_30052000"
         });
     }
 
